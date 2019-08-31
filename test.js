@@ -1,39 +1,3 @@
-// const MyScript = require('./script');
-// const expect = require('chai').expect;
-
-// describe('test script module',function(){
-//     it('this has one module',function(){
-//         expect(MyScript).to.be.ok;
-//     });
-//     describe('add',function(){
-//         it('add two numbers',function(){
-//             expect(MyScript.add(1,9)).to.equal(10);
-//         });
-//         it('add two decimals',function(){
-//             expect(MyScript.add(1.09,10.23)).to.equal(11.32);
-//         });
-//     });
-//     describe('substract',function(){
-//         it('substract two number a>b',function(){
-//             expect(MyScript.substract(10,4)).to.equal(6);
-//         });
-//         it('substract two numbers a<b',function(){
-//             expect(MyScript.substract(2,9)).to.equal(-7);
-//         });
-//     });
-//     describe("multiply",function(){
-//         it('multiply two numbers',function(){
-//             expect(MyScript.multiply(3,6)).to.equal(18);
-//         });
-//     });
-//     describe("divide",function(){
-//         it('divides two numbers',function(){
-//             expect(MyScript.divide(10,5)).to.equal(2);
-//         })
-//     });
-// })
-
-
 const myScript = require('./script');
 const expect = require('chai').expect;
 
